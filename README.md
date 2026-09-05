@@ -111,6 +111,16 @@ run — its most common confusion is glacier→mountain (128 images), well ahead
 next-largest pairs, street→buildings (66) and buildings→street (52) — classes with
 overlapping textures/colors (rock vs. mountain terrain, building facades vs. street scenes).
 
+<p align="center">
+  <img src="assets/confusion_matrix.png" alt="Baseline CNN confusion matrix" width="600"><br>
+  <em>Baseline CNN confusion matrix on the held-out test set.</em>
+</p>
+
+<p align="center">
+  <img src="assets/misclassified_examples.png" alt="Sample misclassified test images" width="700"><br>
+  <em>Sample misclassified test images with actual vs. predicted labels and confidence.</em>
+</p>
+
 The fine-tuned MobileNetV2 model was selected as the final production model
 (`final_scene_classifier.keras`) for its substantially higher accuracy and F1 with a
 comparable parameter count, even though it took longer to train in this run.
