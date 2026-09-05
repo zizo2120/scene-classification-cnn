@@ -1,6 +1,7 @@
 # Multi-Class Natural Scene Image Classification
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zizo2120/scene-classification-cnn/blob/main/Computer_Vision_Image_Classification.ipynb)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://scene-classification-cnn-dgddzkqyjqfeoapf9nbdks.streamlit.app/)
 
 End-to-end computer vision project classifying natural-scene photographs into six categories
 (**buildings, forest, glacier, mountain, sea, street**) using a CNN trained from scratch and a
@@ -78,7 +79,9 @@ probs = model.predict(preprocessed_image_batch)  # shape (N, 150, 150, 3), raw [
 
 ### 5. (Bonus) Run the Streamlit demo
 
-After exporting the model from the notebook:
+**Try it live:** https://scene-classification-cnn-dgddzkqyjqfeoapf9nbdks.streamlit.app/
+
+Or run it locally after exporting the model from the notebook:
 
 ```bash
 streamlit run app.py
