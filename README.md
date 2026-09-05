@@ -1,5 +1,7 @@
 # Multi-Class Natural Scene Image Classification
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zizo2120/scene-classification-cnn/blob/main/Computer_Vision_Image_Classification.ipynb)
+
 End-to-end computer vision project classifying natural-scene photographs into six categories
 (**buildings, forest, glacier, mountain, sea, street**) using a CNN trained from scratch and a
 fine-tuned MobileNetV2 transfer-learning model. Built for the TechTrek Task 4 assignment.
